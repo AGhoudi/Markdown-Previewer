@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 
 .editorBox {
     display: flex;
@@ -32,6 +33,7 @@
     border-top-right-radius: 7px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .text {
