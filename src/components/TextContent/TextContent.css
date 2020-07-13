@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 
 .editorBox {
     display: flex;
@@ -26,6 +26,7 @@
 .editor {
     width: 50vw;
     max-width: 50vw;
+    min-height: 250px;
     margin: 15px auto;
     border: 1px solid #000;
     background-color: #a7b0c7;
@@ -33,7 +34,8 @@
     border-top-right-radius: 7px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Merienda One', cursive;
+    font-size: 16px;
 }
 
 .text {

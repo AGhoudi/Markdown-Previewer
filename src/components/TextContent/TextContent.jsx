@@ -1,11 +1,13 @@
 import React from 'react';
+import Store from '../Store/Store'
 import './TextContent.css';
 
 class TextContent extends React.Component {
     constructor(props) {
         super(props);
+        const store = Store.map(store => store );
         this.state = {
-            text: '#Hello everybody'
+            text: store
         }
         this.handleChange = this.handleChange.bind(this);
     }
@@ -17,6 +19,7 @@ class TextContent extends React.Component {
     }
 
     render() {
+        
         return (
             <React.Fragment>
                 <div className="editorBox">
@@ -25,7 +28,7 @@ class TextContent extends React.Component {
                 </div>
                 <div className="editorBox">
                     <h2 className="editorTitle">&#10143; Previewer</h2>
-                    <p className="editor text" >{this.state.text}</p>    
+                    <p className="editor text" ><pre>{this.state.text}</pre></p>    
                 </div>               
             </React.Fragment>
         );
