@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         
-      <h1>Markdown Previewer</h1>
+      <h1 className="title">Markdown Previewer</h1>
       <TextContent />
     </div>
   );
