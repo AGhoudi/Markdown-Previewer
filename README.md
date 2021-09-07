@@ -1,6 +1,6 @@
 <div align=center><img src="https://user-images.githubusercontent.com/27373255/132414599-9bedc014-0b67-437a-96e3-6e06baf948ea.png" alt="markdown previewer"/></div>
 <h2 align=center>🎯 Objectif du projet :</h2>
-<p align=center>Il s'agissait de créer un jeu de memory game, en utilisant le langage javascript.</p>
+<p align=center>Il s'agissait de créer un système d'affichage de markdown en react.</p>
 
 <h2 align=center>📝 Description :</h2>
 
