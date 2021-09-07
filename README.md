@@ -17,5 +17,5 @@ J'ai crée un système d'affichage de markdown.</br>
 
 <h2 align=center>🌐 Lien web du projet :</h2>
 
-<p align=center>Voici un lien pour tester l'application:
-A Venir...
+<p align=center>Voici un lien pour tester l'application:<br />
+  <center>A Venir...</center>
